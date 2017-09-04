@@ -1,0 +1,43 @@
+.margin {
+  margin-top: 2%;
+  padding-bottom: 2%;
+}
+
+.second{
+font-family: Hoefler Text;
+color: white;
+}
+
+html {
+  font-size: 14px;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 28px;
+  }
+}
+
+.img-center {
+  padding-left: 3%;
+}
+
+.content{
+  margin-top: 3%;
+}
+
+.one{
+  background-color: #5c4a11;
+}
