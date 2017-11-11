@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+  background-color: mintcream;
+}
+
+/*img {
+  max-width: 100%;
+}*/
+
+.menu-container {
+  color: #fff;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.header {
+  width: 100%;
+  height: 130px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 3px solid black;
+}
+
+.contact {
+  font-size: 110%;
+  font-weight: bold;
+}
+
+.logo {
+  max-width: 100%;
+}
+
+.logo, .bobpic, .contact {
+  text-align: center;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+}
+
+iframe {
+  padding-top: 20px;
+}
+
+.bio {
+  display: flex;
+  padding-top: 20px;
+  /*align-items: center;*/
+  flex-direction: row;
+  justify-content: center;
+}
+
+.bio div {
+  border: 1px #ccc solid;
+  padding: 10px;
+}
+
+.two {
+  flex: 2;
+  text-align: center;
+}
+
+.three {
+  flex: 1;
+}
+
+.three img {
+  border: 2px solid black;
+  max-width: 100%
+}
+
+img.award {
+  max-width: 60%;
+}
