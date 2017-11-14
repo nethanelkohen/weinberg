@@ -17,16 +17,27 @@ img {
   padding: 20px 0;
   display: flex;
   justify-content: center;
+  background-color: black;
 }
 
 .menu {
   width: 100%;
   display: flex;
   justify-content: space-around;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+  background-color: black;
+  transition: all 0.3s linear 0s;
+  font-size: larger;
+  font-family: sans-serif;
+  text-transform: uppercase;
 }
 
 a:hover {
-  color: black;
+  color: white;
 }
 
 .header-container {
@@ -66,10 +77,19 @@ a:hover {
 .grid {
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
 iframe {
   padding-top: 20px;
+}
+
+.caption {
+  text-align: center;
+}
+
+.order {
+  order: 1;
 }
 
 .bio {
@@ -81,18 +101,37 @@ iframe {
 }
 
 .bio div {
-  border: 1px #ccc solid;
+  /*border: 1px #ccc solid;*/
   padding: 10px;
   font-size: large;
+}
+
+.bob-text {
+  text-align: center;
+  justify-content: center;
 }
 
 .two {
   flex: 2;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
 }
 
 .three {
   flex: 1;
+}
+
+.bobwalkingphotobox {
+  /*display: flex;*/
+}
+
+.bobwalkingphoto {
+  display: flex;
+  width: 50%;
+  max-width: 100%;
 }
 
 .three img {
@@ -101,9 +140,12 @@ iframe {
 }
 
 img.award {
-  max-width: 60%;
   border: 2px solid black;
   margin-top: 2%;
+}
+
+img.aux {
+  border: 2px solid black;
 }
 
 .text-container {
@@ -113,12 +155,13 @@ img.award {
   height: 100%;
   text-align: center;
   padding: 20px 20px;
+  flex-wrap: wrap;
+  flex-flow: column wrap;
 }
 
 .text-grid {
   display: flex;
   justify-content: center;
-  padding: 20px 20px;
 }
 
 .aboutus-first {
@@ -127,4 +170,5 @@ img.award {
 
 .aboutus-second {
   font-size: larger;
+  padding-top: 20px;
 }
