@@ -3,9 +3,26 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Arial;
-  background-color: mintcream;
   font-family: Garamond;
   font-weight: bold;
+}
+
+@media (min-width: 1200px){
+.container {
+	width: 0;
+}
+}
+
+@media (min-width: 992px) {
+.container {
+	width: 930px;
+}
+}
+
+@media (max-width: 768px;) {
+.container {
+	width: 600px;
+}
 }
 
 img {
