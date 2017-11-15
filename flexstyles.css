@@ -29,6 +29,10 @@ img {
   max-width: 100%;
 }
 
+.experience {
+  text-align: center;
+}
+
 .menu-container {
   color: #fff;
   padding: 20px 0;
@@ -115,6 +119,7 @@ iframe {
   align-content: space-between;
   flex-direction: row;
   justify-content: center;
+  padding-top: -10px;
 }
 
 .bio div {
@@ -126,6 +131,7 @@ iframe {
 .bob-text {
   text-align: center;
   justify-content: center;
+  font-size: larger;
 }
 
 .two {
@@ -159,6 +165,7 @@ iframe {
 img.award {
   border: 2px solid black;
   margin-top: 2%;
+  width: 70%;
 }
 
 img.aux {
