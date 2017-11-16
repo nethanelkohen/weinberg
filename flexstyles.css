@@ -56,10 +56,11 @@ a {
   font-size: larger;
   font-family: sans-serif;
   text-transform: uppercase;
+  color: white;
 }
 
 a:hover {
-  color: white;
+  text-decoration: underline;
 }
 
 .header-container {
@@ -130,14 +131,14 @@ iframe {
 }
 
 .bob-text {
-  text-align: center;
+  /*text-align: center;*/
   justify-content: center;
   font-size: larger;
 }
 
 .two {
   flex: 2;
-  text-align: center;
+  /*text-align: center;*/
   display: flex;
   align-items: center;
   justify-content: center;
@@ -158,6 +159,10 @@ iframe {
   max-width: 100%;
 }
 
+.spanish {
+  text-align: center;
+}
+
 .three img {
   border: 2px solid black;
   max-width: 100%
@@ -169,6 +174,14 @@ img.award {
   width: 90%;
 }
 
+.auxpic {
+  text-align: center;
+}
+
+.contacthim {
+  text-align: center;
+}
+
 img.aux {
   border: 2px solid black;
 }
@@ -178,7 +191,6 @@ img.aux {
   justify-content: center;
   flex-direction: column;
   height: 100%;
-  text-align: center;
   padding: 20px 20px;
   flex-wrap: wrap;
   flex-flow: column wrap;
