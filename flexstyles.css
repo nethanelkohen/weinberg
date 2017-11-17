@@ -115,6 +115,14 @@ iframe {
   order: 1;
 }
 
+.bio-aboutus{
+  padding-top: 20px;
+  align-content: space-between;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: -10px;
+}
+
 .bio {
   display: flex;
   padding-top: 20px;
@@ -131,42 +139,56 @@ iframe {
 }
 
 .bob-text {
-  /*text-align: center;*/
-  justify-content: center;
   font-size: larger;
+  margin-left: 2.5%;
+  margin-bottom: 2%;
 }
 
-.two {
+h3.bob-text {
+  text-align: center;
+}
+
+/*.two {
   flex: 2;
-  /*text-align: center;*/
   display: flex;
   align-items: center;
   justify-content: center;
   flex-flow: column wrap;
-}
+}*/
 
 .three {
   flex: 1;
 }
 
-.bobwalkingphotobox {
-  /*display: flex;*/
-}
-
-.bobwalkingphoto {
+/*.bobwalkingphoto {
   display: flex;
   width: 50%;
   max-width: 100%;
-}
+}*/
 
 .spanish {
   text-align: center;
 }
 
-.three img {
+.threeimg {
   border: 2px solid black;
+  width: 30%;
   max-width: 100%
 }
+
+img.threeimg {
+  float: right;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: -2%;
+}
+
+/*.three img {
+  border: 2px solid black;
+  width: 40%;
+  max-width: 100%
+  float: right;
+}*/
 
 img.award {
   border: 2px solid black;
