@@ -138,6 +138,10 @@ iframe {
   font-size: large;
 }
 
+.biothird {
+  margin-top: -20px;
+}
+
 .bob-text {
   font-size: larger;
   margin-left: 2.5%;
@@ -148,16 +152,20 @@ h3.bob-text {
   text-align: center;
 }
 
-/*.two {
+.two {
   flex: 2;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-flow: column wrap;
-}*/
+}
 
 .three {
   flex: 1;
+}
+
+.image {
+  border: 2px solid black;
 }
 
 /*.bobwalkingphoto {
